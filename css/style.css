@@ -27,11 +27,12 @@ body{
 .button{
     padding: 10px 20px 10px 20px;
     background-color: orange;
-    color: black;
+    color: white;
     margin: 10px;
     border-radius: 3px;
 }
 .headers{
+    font-family: Copperplate;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -98,18 +99,32 @@ body{
     width: 50%;
 }
 
-
-
-.whatsappCircle{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: 2px solid black;
-position: fixed;
-bottom: 1%;
-right: 2%;
+.posfix{
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
 }
 
+.whatsappCircle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+
+}
+.whatsapp{
+    background-image: linear-gradient(to right,#31EB67,#05D149);
+    margin-bottom: 10px;
+}
+.tel{
+    background-image: linear-gradient(to right,royalblue,royalblue);
+}
+.icon-p{
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+}
 .gridplace{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -228,6 +243,7 @@ height: 70px;
 .headers {
      width: 100%;
     text-align: center;
+ 
 }
 .widthChange{
     width: 98%;
@@ -255,7 +271,9 @@ height: 70px;
   }
 
 
-
+.comment{
+    border-bottom: 1px solid black;
+}
 
   .footer{
     width: 100%;
