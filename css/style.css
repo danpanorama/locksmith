@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.link{
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.nav{
+    min-height: 6vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
+}
+.h6vh{
+    height: 6vh;
+}
+.carousel-item{
+    position: relative;
+}
+.button{
+    padding: 10px 20px 10px 20px;
+    background-color: orange;
+    color: black;
+    margin: 10px;
+    border-radius: 3px;
+}
+.headers{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.carousel-item2::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.493));
+}
+.openingpage{
+   height: 40vh;
+   position: relative;
+   clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 87%, 0 100%, 0% 70%, 0% 35%, 0 0);
+}
+
+.w100{
+    width: 100%;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.h100vh{
+    height: 100vh;
+}
+.h100{
+    height: 100% ;
+}
+.bc{
+    background-color: rgb(255, 255, 255);
+}
+.w100vw{
+    width: 100vw;
+}
+.bet{
+    justify-content: space-between;
+    align-items: center;
+}
+.w50{
+    width: 50%;
+}
+.img{
+    height:100% ;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.widthChange{
+    width: 70%;
+}
+
+
+
+.whatsappCircle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+position: fixed;
+bottom: 1%;
+right: 2%;
+}
+
+.gridplace{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   
+    width: 100%;
+    margin-top: 30px;
+}
+.squergrid{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    min-height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.tac{
+    text-align: center;
+}
+.paddingPage{
+    width: 70%;
+}
+
+.topleft{
+    border-top-left-radius: 50px;
+
+}
+.topright{
+    border-top-right-radius: 50px;
+}
+
+.grids{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+.transform{
+    transform: translateY(-50px);
+}
+.smallicon{
+    height: 50px;
+    width: 50px;
+}
+.bacolo{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: white;
+    background-image: linear-gradient(rgba(65, 105, 225, 0.693),rgba(65, 105, 225, 0.716)),url('../images/ga.jpg');
+    background-size: cover;
+    object-fit: cover;
+}
+.h150{
+height: 70px;
+    
+}
+.colororange{
+    color: orange;
+}
+.circleinage{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: red;
+}
+.min-h{
+    min-height: 25vh;
+}
+.cirleimage{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.w90{
+    width: 90%;
+}
+
+.squarego{
+    border: 2px solid white;
+    padding: 14px 14px 0 14px;
+    color: white;
+}
+@media screen and (max-width: 992px) {
+.grids{
+    grid-template-columns: 1fr;
+}
+.gridplace{
+    grid-template-columns: 1fr;
+}
+.topleft{
+    border-top-left-radius: 0;
+
+}
+.leftandright{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.topright{
+    border-top-right-radius: 0;
+}
+.paddingPage{
+    width: 90%;
+}
+
+.headers {
+     width: 100%;
+    text-align: center;
+}
+.widthChange{
+    width: 98%;
+}
+
+  }
+
+  .cw{
+    color: white;
+  }
+  .bcb{
+    background-color: black;
+  }
+.hard{
+    font-weight: 900;
+    color: white;
+}
+  .imagebigall{
+    height: 30vh;
+    width: 100%;
+    background-image: url('./../images/a2.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+
+
+  .footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #262626;
+  }
