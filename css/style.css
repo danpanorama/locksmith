@@ -24,6 +24,12 @@ body{
 .carousel-item{
     position: relative;
 }
+.labor{
+    text-transform: uppercase;
+    margin: 0;
+    background-color: orange;
+    padding: 0px 20px 0px 20px;
+}
 .button{
     padding: 10px 20px 10px 20px;
     background-color: orange;
@@ -95,9 +101,9 @@ body{
     object-fit: cover;
     background-size: cover;
 }
-.widthChange{
+/* .widthChange{
     width: 50%;
-}
+} */
 
 .posfix{
     position: fixed;
@@ -125,30 +131,76 @@ body{
     margin: 0;
     color: white;
 }
+.mxwit{
+    max-width: 1300px;
+}
+.imagestyle{
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.map{
+    height: 20vh;
+}
+
 .gridplace{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
    
-    width: 100%;
+    width: 90%;
     margin-top: 30px;
+    max-width: 900px;
+}
+.w80{
+    width: 80%;
+}
+.fart
+{
+    font-weight: 900;
+    font-size: 2.3rem;
 }
 .squergrid{
     height: 100%;
     width: 100%;
+    padding: 0px 20px 0px 20px;
     border: 2px solid black;
     display: flex;
     min-height: 100px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
+}
+.imageside{
+    margin-left: 10px;
+    position: relative;
+}
+.squerstyle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+    height: 100%;
+    width: 100%; transform: translate(50px,-50px);
+    z-index: -1;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/a2.jpg');
+    background-size: cover;
+    object-fit: cover;
+}
+.paddingPage2{
+    width: 60%;
 }
 .tac{
     text-align: center;
 }
 .paddingPage{
-    width: 50%;
+    width: 70%;
 }
 
 .topleft{
@@ -208,7 +260,12 @@ height: 70px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    transition: all .5s ease;
 }
+.cirleimage:hover{
+    transform: scale(1.5);
+}
+
 .w90{
     width: 90%;
 }
@@ -217,6 +274,13 @@ height: 70px;
     border: 2px solid white;
     padding: 14px 14px 0 14px;
     color: white;
+}
+.p{
+    color: #d12e05;
+    margin-left: 10px;
+}
+.w70{
+    width: 70%;
 }
 @media screen and (max-width: 992px) {
 .grids{
@@ -229,19 +293,28 @@ height: 70px;
     border-top-left-radius: 0;
 
 }
+.paddingPage2{
+    width: 90%;
+}
 .leftandright{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.disable{
+    display: none;
+}
 .topright{
     border-top-right-radius: 0;
 }
+.w80{
+width: 100%;
+}
 .paddingPage{
-    width: 90%;
+    width: 97%;
 }
 
 .headers {
-     width: 100%;
+     width: 90%;
     text-align: center;
  
 }
