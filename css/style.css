@@ -68,6 +68,10 @@ body{
     display: flex;
     flex-direction: column;
 }
+.flexrowtocol{
+    display: flex;
+    flex-direction: row;
+}
 .center{
     align-items: center;
     justify-content: center;
@@ -219,12 +223,16 @@ p{
 }
 .paddingPage2{
     width: 60%;
+    animation: annim 1s ;
+    animation-fill-mode: forwards;
 }
 .tac{
     text-align: center;
 }
 .paddingPage{
     width: 70%;
+    animation: annim 1s ;
+    animation-fill-mode: forwards;
 }
 
 .topleft{
@@ -340,13 +348,22 @@ width: 100%;
 .headers {
      width: 90%;
     text-align: center;
+
  
 }
 .widthChange{
     width: 98%;
 }
+.flexrowtocol{
+    flex-direction: column !important;
+}
+.w8080{
+    width: 80%;
+  }
 
   }
+
+
 
   .cw{
     color: white;
@@ -377,14 +394,24 @@ width: 100%;
     height: 20vh;
     background-color: #262626;
   }
+  @keyframes annim {
+    0%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+  }
 
 
   a:link{
-    color: white;
+    color: inherit;
+    text-decoration: none;
   }
-  .w8080{
-    width: 80%;
-  }
+
 
   .lilciclic{
     border-radius: 50%;
