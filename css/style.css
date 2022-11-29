@@ -167,11 +167,35 @@ body{
     padding: 0px 20px 0px 20px;
     border: 2px solid black;
     display: flex;
-    min-height: 100px;
+    max-height: 200px;
+    min-height: 80px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
+}
+.carousel-indicators{
+    margin-bottom: 0;
+}
+.minh30{
+    min-height: 200px;
+}
+.imagestyle{
+    position: sticky;
+    top: 6rem;
+    
+}
+.padpad{
+    padding: 10px;
+}
+.h1{
+    margin-bottom: 1rem;
+}
+.marbot{
+    margin-bottom: 1rem; 
+}
+p{
+    margin-bottom: 0;
 }
 .imageside{
     margin-left: 10px;
@@ -310,7 +334,7 @@ height: 70px;
 width: 100%;
 }
 .paddingPage{
-    width: 97%;
+    width: 95%;
 }
 
 .headers {
@@ -352,4 +376,20 @@ width: 100%;
     width: 100%;
     height: 20vh;
     background-color: #262626;
+  }
+
+
+  a:link{
+    color: white;
+  }
+  .w8080{
+    width: 80%;
+  }
+
+  .lilciclic{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+    border: 1px solid white;
   }
