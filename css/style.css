@@ -214,6 +214,8 @@ p{
     height: 100%;
     width: 100%; transform: translate(50px,-50px);
     z-index: -1;
+    max-height: 400px;
+
 }
 .image{
     height: 100%;
@@ -221,6 +223,8 @@ p{
     background-image: url('../images/a2.jpg');
     background-size: cover;
     object-fit: cover;
+    max-height: 400px;
+
 }
 .paddingPage2{
     width: 60%;
